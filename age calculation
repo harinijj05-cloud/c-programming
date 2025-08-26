@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int age, currentyear,yearofbirth;
+ clrscr();
+ printf("enter your current year: ");
+ scanf("%d",&currentyear);
+ printf("\n enter your year of birth: ");
+ scanf("%d",&yearofbirth);
+ age=currentyear-yearofbirth;
+ printf("AGE:%d",age);
+ getch();
+ return 0;
+ }
