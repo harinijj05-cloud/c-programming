@@ -12,3 +12,14 @@ int main()
   return 0;
 }
 
+#include<stdio.h>
+int main()
+{
+  int length;
+  float area;
+  length=10;
+  area= length*length;
+  Printf("area=%f",area);
+  return 0;
+}
+
