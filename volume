@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  int length,width,height;
+  float volume;
+  length=10;
+  width=20;
+  height= 30;
+  volume=length*width*height;
+  Printf("volume=%f",volume);
+  return 0;
+  }
