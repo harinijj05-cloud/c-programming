@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int radius;
+  Const float pi=3.14;
+  float circum, area;
+  radius= 5;
+  circum= 2*pi*radius;
+  area= pi*radius*radius;
+  printf("circum=©f\n",circum);
+  printf("area=%f",area);
+  return 0;
+}
+
